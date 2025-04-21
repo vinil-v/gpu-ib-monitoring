@@ -52,6 +52,7 @@ def apply(metric):
 
 [[inputs.infiniband]]
   # no configuration
+  
 EOF
 # replace the example config with the new generated config
 sudo cp azm-telegraf.conf /etc/telegraf/telegraf.conf
